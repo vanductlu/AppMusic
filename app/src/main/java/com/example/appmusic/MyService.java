@@ -34,12 +34,15 @@ public class MyService extends Service {
         super.onCreate();
         playlist = new ArrayList<>();
         imageList = new ArrayList<>();
+        playlist.add(R.raw.nhanduyentiendinh);
+        imageList.add(R.drawable.nhanduyentiendinh);
 
         playlist.add(R.raw.trentinhbanduoitinhyeu);
         imageList.add(R.drawable.trentinhbanduoitinhyeu);
 
         playlist.add(R.raw.nhuanhdathayem);
         imageList.add(R.drawable.nhuanhdathayem);
+
 
         // Add more songs and their corresponding images
 
